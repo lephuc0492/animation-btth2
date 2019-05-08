@@ -1,0 +1,39 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+}
+.container div
+{
+
+}
+.container
+{
+
+margin: auto;
+width: 1000px;
+display: grid;
+grid-template-columns: 300px 300px 300px;
+grid-template-rows: 300px 300px 300px;
+grid-gap: 50px;
+}
+img
+{
+	border: 10px white solid;
+	width: 300px;
+	text-align: center; /*căn giữa theo cái cha của nó nhé nên đặt sai là ăn lol ngay*/
+	transition: 2s;
+	position: relative;
+}
+.img3
+{
+
+	margin-top: 10px;
+}
+img:hover
+{
+transform: scale(1.5);
+}
